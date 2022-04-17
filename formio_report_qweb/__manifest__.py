@@ -21,6 +21,11 @@
         'views/formio_form_views.xml',
         'wizard/formio_form_report_qweb_wizard.xml'
     ],
+    'assets': {
+        'web.report_assets_common': [
+            'formio_report_qweb/static/src/scss/*.scss',
+        ]
+    },
     'application': True,
     'images': [
         'static/description/banner.gif',
